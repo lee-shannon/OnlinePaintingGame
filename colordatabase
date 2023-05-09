@@ -1,0 +1,3 @@
+CREATE TABLE colors (colorID INT, name VARCHAR(15), hex VARCHAR(7), PRIMARY KEY (colorID));
+
+INSERT INTO colors VALUES (1,'Red','#fc0303'), (2,'Orange','#fc6f03'), (3,'Yellow','#fcdb03'), (4,'Green','#41fc03'), (5,'Blue','#0352fc'), (6,'Purple','#9003fc'), (7,'Indigo','#3f0fb7'), (8,'Black','#000000'), (9,'White','#FFFFFF'), (10,'Grey','#6b6b6b');
